@@ -7,7 +7,6 @@ import org.hibernate.service.ServiceRegistry;
 import org.hibernate.service.ServiceRegistryBuilder;
 
 public class ejemplo07 {
-
     public static void main(String[] args) {
         SessionFactory sessionFactory;
         Configuration configuration = new Configuration();
@@ -25,5 +24,4 @@ public class ejemplo07 {
         session.getTransaction().commit();
         session.close();
     }
-
 }
